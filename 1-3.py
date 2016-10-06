@@ -1,4 +1,6 @@
 #!/bin/python
+from os import system
+system('clear')
 def aTevanB(a, b):
     if b == 1:
         return a

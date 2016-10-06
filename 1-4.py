@@ -1,3 +1,6 @@
+#!/bin/python
+from os import system
+system('clear')
 array = input("please enter a array: ")
 def chapAzAkhar(str):
     arz = len(str)
