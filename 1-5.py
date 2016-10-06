@@ -2,7 +2,7 @@
 from os import system
 
 system('clear')
-# Reclusive Mode
+# Recessive Mode
 number = str(input("Please enter your number: "))
 
 
@@ -18,7 +18,7 @@ def charINnewline(str):
 
 print(charINnewline(number))
 
-# No Reclusive Mode
+# No Recessive Mode
 if number[0] == '0':
     number = number[1:]
 for i in range(0, len(number)):

@@ -1,7 +1,7 @@
 #!/bin/python
 from os import system
 system('clear')
-print("Rescusive mode\n")
+print("Recessive mode\n")
 nlist=[]
 nums=input("how much nums u have?")
 for i in range (0,int(nums)):
@@ -13,7 +13,7 @@ def sum(m):
     else:
         return sum(int(m)-1)+int(nlist[int(m)-1])
 print(sum(int(nums)))
-print("non rescusive mode: \n")
+print("non Recessive mode: \n")
 nums=None
 nums=input("how much nums u have?")
 summ=0
